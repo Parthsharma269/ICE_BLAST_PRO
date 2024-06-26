@@ -190,6 +190,11 @@
     box-shadow: 0px 0px 26.2px 0px #FA6A0099;
 }
 
+.Common_Btn:hover {
+    background-color: #ffffff;
+    color: #ff4500 !important;
+}
+
 .BG-Img {
     background-size: cover;
     background-position: center;
@@ -284,6 +289,10 @@
     padding-top: 14px;
 }
 
+.pt-15 {
+    padding-top: 15%;
+}
+
 .pt-16 {
     padding-top: 16px;
 }
@@ -322,6 +331,10 @@
 
 .gap-24 {
     gap: 24px;
+}
+
+.pt-25 {
+    padding-top: 25%;
 }
 
 .pb-25 {
@@ -472,8 +485,8 @@
 }
 
 .Slick_slider_Img-m-w {
-    max-width: 572.04px !important;
-    max-height: 380.82px !important;
+    max-width: 509px !important;
+    max-height: 434px !important;
 }
 
 .Email_Icon {
@@ -490,16 +503,16 @@
     max-height: 134px !important;
 }
 
-.S_3_Img {
-    top: 20%;
-    right: 0;
-    position: absolute;
+.right-img {
+    top: 9%;
+    left: 51% !important;
+    width: 50% !important;
 }
 
-.S_3_Img-2 {
-    top: 42%;
-    left: -5%;
-    position: absolute;
+.left-img {
+    top: 50%;
+    right: 59%;
+    width: 50% !important;
 }
 
 .max-w-730 {
@@ -691,6 +704,41 @@
     border: none;
     outline: none;
     padding-left: 20px;
+}
+
+.slider-btn{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    padding: 12px 16px;
+    border: 1px solid #FFFFFF;
+    
+}
+.left-btn {
+    top: 50%;
+    left: -30px;
+}
+
+.right-btn {
+    top: 50%;
+    right: -30px;
+}
+
+#myBtn {
+    right: 1%;
+    bottom: 1%;
+    z-index: 99;
+    border: none;
+    display: none;
+    padding: 18px;
+    outline: none;
+    position: fixed;
+    font-size: 18px;
+    cursor: pointer;
+    color: #ff4500;
+    border-radius: 100px;
+    background: #ffffff;
+    box-shadow: 0px 0px 26.2px 0px #FA6A0099;
 }
 
 @media (max-width: 992px) {

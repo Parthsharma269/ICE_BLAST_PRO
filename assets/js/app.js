@@ -6,6 +6,20 @@ menuIcon.addEventListener("click", () => {
   document.querySelector("body").classList.toggle("overflow-hidden");
 })
 
+let mybutton = document.getElementById("myBtn");
+window.onscroll = function () { scrollFunction() };
+function scrollFunction() {
+  if (document.body.scrollTop > 555 || document.documentElement.scrollTop > 555) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
 let accordian_items = document.querySelectorAll(".accordian-box");
 
 accordian_items.forEach((items) => {
@@ -48,27 +62,24 @@ accordian_items.forEach((items) => {
 
 var gallerySlider = new Swiper(".gallery-slider", {
   pagination: {
+    el: ".swiper-pagination",
     type: "bullets",
     clickable: true,
-    el: ".swiper-pagination",
   },
   navigation: {
+    nextEl: ".right-btn",
+    prevEl: ".left-btn",
     dots: false,
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
   },
-  loop: true,
-  dots:false,
-  speed: 2000,
-  Infinity: true,
-  autoplay: true,
-  slidesPerView: 2.5,
   effect: "coverflow",
+  loop: true,
   centeredSlides: true,
+  slidesPerView: 2.5,
+  Infinity: true,
   coverflowEffect: {
     rotate: 0,
-    depth: 150,
     stretch: 100,
+    depth: 150,
     modifier: 1.5,
     slideShadows: false,
   },
