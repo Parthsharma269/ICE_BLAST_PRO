@@ -510,13 +510,13 @@
 
 .right-img {
     top: 9%;
-    left: 51% !important;
+    left: 50% !important;
     width: 50% !important;
 }
 
 .left-img {
     top: 50%;
-    right: 59%;
+    right: 50%;
     width: 50% !important;
 }
 
@@ -815,6 +815,15 @@
         padding-top: 9%;
     }
 
+    .Email_Icon {
+        top: -24%;
+        left: 46%;
+    }
+
+    .input_box {
+        transform: translate(0, 26%);
+    }
+
     :root {
         --fs-48: 38px;
         --fs-96: 38px;
@@ -822,6 +831,15 @@
 }
 
 @media (max-width:768px) {
+    .input_box {
+        transform: translate(0, 16%);
+    }
+
+    .Email_Icon {
+        top: -25%;
+        left: 45%;
+    }
+
     .menuIcon {
         left: 73%;
     }
@@ -833,18 +851,55 @@
         --fs-28: 23px;
     }
 
+    .input_box {
+        transform: translate(0, 11%);
+    }
+
+    .Email_Icon {
+        top: -20%;
+        left: 43%;
+    }
+
     .menuIcon {
         left: 65%;
     }
 }
 
 @media (max-width:500px) {
+    :root {
+        --fs-16: 14px;
+        --fs-48: 25px;
+    }
+
+    .input_box {
+        transform: translate(0, 11%);
+    }
+
+    .Email_Icon {
+        top: -20%;
+        left: 42%;
+    }
+
     .menuIcon {
         left: 60%;
     }
 }
 
 @media (max-width:400px) {
+    :root {
+        --fs-16: 14px;
+        --fs-48: 25px;
+    }
+
+    .input_box {
+        transform: translate(0, 11%);
+    }
+
+    .Email_Icon {
+        top: -20%;
+        left: 38%;
+    }
+
     .menuIcon {
         left: 50%;
     }
@@ -853,6 +908,16 @@
 @media (max-width:320px) {
     :root {
         --fs-16: 14px;
+        --fs-48: 25px;
+    }
+
+    .input_box {
+        transform: translate(0, 11%);
+    }
+
+    .Email_Icon {
+        top: -20%;
+        left: 38%;
     }
 
     .menuIcon {
