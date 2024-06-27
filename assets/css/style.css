@@ -908,6 +908,7 @@
 @media (max-width:320px) {
     :root {
         --fs-16: 14px;
+        --fs-24: 11px;
         --fs-48: 25px;
     }
 
