@@ -286,7 +286,7 @@
     padding-top: 13px;
 }
 
-.pt-13 {
+.pt_13 {
     padding-top: 13%;
 }
 
@@ -631,7 +631,7 @@
 .input_box {
     width: 958px !important;
     height: 100% !important;
-    transform: translate(0, 42%);
+    transform: translate(0, 31%);
     border-radius: 42px !important;
     background: #101A2E !important;
     padding: 68px 226px 40px 227px !important;
@@ -746,6 +746,12 @@
     box-shadow: 0px 0px 26.2px 0px #FA6A0099;
 }
 
+@media (max-width:1024px) {
+    .input_box {
+        transform: translate(0, 17%);
+    }
+}
+
 @media (max-width: 992px) {
     .menuIcon {
         left: 79%;
@@ -776,7 +782,7 @@
         display: flex;
         position: fixed;
         align-items: center;
-        background: #00192A;
+        background: #000000;
         flex-direction: column;
         justify-content: center;
         transition: all 200ms linear;
@@ -824,6 +830,10 @@
         transform: translate(0, 26%);
     }
 
+    .pt-lg-13 {
+        padding-top: 13px;
+    }
+
     :root {
         --fs-48: 38px;
         --fs-96: 38px;
@@ -856,7 +866,7 @@
     }
 
     .Email_Icon {
-        top: -20%;
+        top: -26%;
         left: 43%;
     }
 
@@ -876,12 +886,12 @@
     }
 
     .Email_Icon {
-        top: -20%;
+        top: -25%;
         left: 42%;
     }
 
     .menuIcon {
-        left: 60%;
+        left: 82%;
     }
 }
 
@@ -896,12 +906,12 @@
     }
 
     .Email_Icon {
-        top: -20%;
+        top: -24%;
         left: 38%;
     }
 
     .menuIcon {
-        left: 50%;
+        left: 75%;
     }
 }
 
@@ -922,6 +932,6 @@
     }
 
     .menuIcon {
-        left: 43%;
+        left: 70%;
     }
 }
