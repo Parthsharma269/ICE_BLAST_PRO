@@ -80,7 +80,7 @@ var gallerySlider = new Swiper(".gallery-slider", {
     rotate: 0,
     stretch: 100,
     depth: 150,
-    modifier: 1.5,
+    modifier: 2.5,
     slideShadows: false,
   },
 });

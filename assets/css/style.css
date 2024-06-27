@@ -721,18 +721,18 @@
 
 .left-btn {
     top: 50%;
-    left: -30px;
+    left: 3%;
 }
 
 .right-btn {
     top: 50%;
-    right: -30px;
+    right: 1%;
 }
 
 #myBtn {
-    right: 1%;
-    bottom: 1%;
     z-index: 99;
+    right: 18px;
+    bottom: 18px;
     border: none;
     display: none;
     padding: 18px;
