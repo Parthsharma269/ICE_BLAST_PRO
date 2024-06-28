@@ -422,9 +422,25 @@
     margin-bottom: 220px;
 }
 
-.Playbtn_Icon_Img-m-w {
-    max-width: 558px !important;
-    max-height: 584px !important;
+.videos {
+    width: 100%;
+    max-width: 558px;
+    min-height: 584px;
+    border-radius: 24px;
+}
+
+.videos_2 {
+    width: 100%;
+    max-width: 1140px;
+    min-height: 642px;
+    border-radius: 24px;
+}
+
+.videos_3 {
+    width: 100%;
+    max-width: 558px;
+    min-height: 492px;
+    border-radius: 24px;
 }
 
 .bg-oranged {
@@ -727,6 +743,18 @@
 .right-btn {
     top: 50%;
     right: 1%;
+}
+
+.S_3_Img {
+    top: 1%;
+    left: 45%;
+    max-width: 690px;
+}
+
+.S_3_Img-2 {
+    left: -9%;
+    bottom: -13%;
+    max-width: 690px;
 }
 
 #myBtn {
