@@ -25,27 +25,27 @@
     --fw-600: 600;
     --fw-700: 700;
 
-    --ff-Acumin: "Acumin Pro", sans-serif;
-    --ff-TitlingGothicFB: "TitlingGothicFB", sans-serif;
+    --ff-Acumin: "Acumin Pro";
+    --ff-TitlingGothicFB: "TitlingGothicFB";
 }
 
 
 @font-face {
-    font-family: "TitlingGothicFB", sans-serif;
+    font-family: "TitlingGothicFB";
     src: url(../fonts/TitlingGothicFB_Cond_Bold.otf);
 }
 
 @font-face {
-    font-family: "Acumin Pro", sans-serif;
+    font-family: "Acumin Pro";
     src: url(../fonts/FontsFree-Net-Acumin-Pro-Book.ttf);
 }
 
 .ff_Acumin {
-    font-family: "Acumin Pro", sans-serif;
+    font-family: "Acumin Pro";
 }
 
 .ff_TitlingGothicFB {
-    font-family: "TitlingGothicFB", sans-serif;
+    font-family: "TitlingGothicFB";
 }
 
 .fs-14 {
@@ -244,8 +244,8 @@
 
 .Nav_Card {
     width: 100%;
-    padding: 35px;
-    max-height: 70px;
+    height: 70px;
+    padding: 45px;
     border-radius: 16px;
     background: #FFFFFF;
 }
